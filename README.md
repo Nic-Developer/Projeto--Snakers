@@ -2,6 +2,10 @@
  
   <p>Projeto- Snakers criado junto ao curso do Professor Matheus Battisti na Udemy.</p>
 
+  <img src="assets/gif.gif" alt="foto-projeto" width="100%">
+
+</img>
+
 ### **Tecnologias :**
 
 1. HTML5
