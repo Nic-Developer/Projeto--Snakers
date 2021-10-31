@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* cabecalho */
+header {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: black;
+  padding: 15px;
+  text-align: center;
+}
+/* grid de produtos */
+.container {
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  min-height: 60vh;
+  padding: 50px;
+}
+.products-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 31%;
+  display: inline-block;
+  margin: 1% 1%;
+  padding: 15px;
+}
+
+/* COLOCAR EFEITO DE VIDRO*/
+.product-image {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-position: center;
+  background-size: cover; /* mostra o tamanho real da imagem no espaço disponivel*/
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+#img1 {
+  background-image: url("img/tenis1.jpg");
+}
+#img2 {
+  background-image: url("img/tenis2.jpg");
+}
+#img3 {
+  background-image: url("img/tenis3.jpg");
+}
+#img4 {
+  background-image: url("img/tenis4.jpg");
+}
+#img5 {
+  background-image: url("img/tenis5.jpg");
+}
+#img6 {
+  background-image: url("img/tenis6.jpg");
+}
+.card p {
+  margin-bottom: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: rgba(75, 65, 65, 0.719);
+}
+
+h3 {
+  margin-bottom: 10px;
+  color: black;
+  font-size: 24px;
+}
+
+/* footer */
+
+footer {
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  color: black;
+  border-top: 3px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+  padding: 40px;
+}
